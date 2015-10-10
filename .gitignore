@@ -1,0 +1,8 @@
+# Compilation time for latex
+*.aux
+*.log
+*.synctex.gz
+*.toc
+
+# Latex result document
+*.pdf
