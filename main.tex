@@ -1,0 +1,52 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{llncs}
+%
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{cite} % allows use bibtex
+\usepackage[utf8]{inputenc} % input encoding
+%
+\begin{document}
+%
+\frontmatter          % for the preliminaries
+
+%
+\mainmatter              % start of the contributions
+%
+\title{Example Title} % FIX insert title
+%
+\titlerunning{ExampleTitle}  % FIX abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+%\author{Ivar Ekeland\inst{1} \and Roger Temam\inst{2} Jeffrey Dean \and David Grove \and Craig Chambers \and Kim~B.~Bruce \and Elsa Bertino}
+\author{Example Author}% FIX insert author
+%
+\authorrunning{Example Author} % FIX abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Example Author} % FIX TOC authors
+%
+\institute{Example Institution \email{example@example.org}} % FIX institution
+
+\maketitle              % typeset the title of the contribution
+
+\begin{abstract}
+Example abstract.% FIX abstract
+\keywords{Example, keywords} % FIX keywords
+\end{abstract}
+%
+\section{Example section} % FIX sections
+Example text. \cite{example} % FIX text
+
+%
+% ---- Bibliography ----
+%
+\bibliography{mybib}{}
+\bibliographystyle{plain}
+
+\clearpage
+\end{document}

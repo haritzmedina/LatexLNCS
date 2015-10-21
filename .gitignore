@@ -1,8 +1,12 @@
-# Compilation time for latex
+# Compilation time files for latex
 *.aux
 *.log
 *.synctex.gz
 *.toc
+
+# Bibtex compilation files
+*.bbl
+*.blg
 
 # Latex result document
 *.pdf
